@@ -44,38 +44,42 @@ finance-tracker/
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
-bash :
+```bash
 git clone https://github.com/mdewmini/finance-tracker.git
 cd finance-tracker
-
+```
 
 ### 2. Backend Setup
-bash : 
+```bash
 cd backend
 npm install
+```
 
 ### 3. Configure environment variables
 Create a `.env` file inside the `backend/` folder:
-
+```env
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_secret_key
 PORT=8000
-
+```
 
 ### 4. Run the backend
-bash : npm run dev
-
+```bash
+npm run dev
+```
 Backend runs on: `http://localhost:8000`
 
 ### 5. Frontend Setup
 Open a new terminal:
-bash :
+```bash
 cd frontend
 npm install
+```
 
 ### 6. Run the frontend
-bash : npm run dev
-
+```bash
+npm run dev
+```
 Frontend runs on: `http://localhost:5173`
 
 ### 7. Database
