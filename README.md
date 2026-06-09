@@ -44,13 +44,13 @@ finance-tracker/
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
-bash
+bash :
 git clone https://github.com/mdewmini/finance-tracker.git
 cd finance-tracker
 
 
 ### 2. Backend Setup
-bash 
+bash : 
 cd backend
 npm install
 
@@ -69,7 +69,7 @@ Backend runs on: `http://localhost:8000`
 
 ### 5. Frontend Setup
 Open a new terminal:
-bash
+bash :
 cd frontend
 npm install
 
